@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @AllArgsConstructor
 public class CartService {
     private final RestTemplate restTemplate;
-    private static final String apiUrl="http://localhost:4002/s2s/carts";
+    private static final String apiUrl="http://34.41.152.3:8080/s2s/carts";
 
     public CartResponse getCartDetails(String userId){
         try{
